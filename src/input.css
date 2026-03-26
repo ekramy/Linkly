@@ -8,6 +8,8 @@
   --color-darkPurple: hsl(281, 86%, 16%, 100%);
   --color-coralRed: hsl(0, 66%, 57%, 100%);
   --color-aqua: hsl(185, 58%, 66%, 100%);
-  --color-darkChocolate: hsl(57, 53%, 9%, 100%);
+  --color-grayisviolet: #787878;
+  --color-grayLogin: #505050;
+  --color-beige: #f7f6e5;
   --color-darkGray: hsl(0, 0%, 7%, 100%);
 }

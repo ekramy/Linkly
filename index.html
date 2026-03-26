@@ -19,9 +19,88 @@
              <div class="flex items-center space-x-20">
                 <!-- Logo -->
                  <img src="./assets/Linkly-logo.svg" alt="" class="src">
+                 <!-- Left menu -->
+                  <div class="hidden space-x-8 font-bold lg:flex">
+                    <a href="#" class="text-grayisviolet hover:darkGray">Features</a>
+                    <a href="#" class="text-grayisviolet hover:darkGray">Pricing</a>
+                    <a href="#" class="text-grayisviolet hover:darkGray">Resources</a>
+                  </div> 
              </div>
-
+            <!-- right button menu -->
+             <div class="hidden items-center space-x-6 font-bold text-grayisviolet lg:flex">
+                <div class="text-grayLogin hover:text-darkGray">Login</div>
+                <a href="#" class="px-8 py-3 font-bold text-white rounded-full hover:bg-coralRed bg-darkPurple">Sign Up</a>
+             </div>
+             <!-- @todo Hamburger Menu -->
          </div>
+         <!-- @to do Mobile menu -->
     </nav>
+    <!-- Hero Section -->
+     <div id="hero">
+        <!-- Hero Container -->
+         <div class="container flex flex-col-reverse mx-auto p-6 lg:flex-row">
+            <!-- Content -->
+             <div class="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-2/3 xl:mb-52">
+                <h1 class="text-5xl font-bold text-center lg:text-6xl lg:max-w-lg lg:text-left">Shrink the link, expand the impact</h1>
+                <p class="text-2xl text-center font-light text-gray-400 lg:max-w-md lg:text-left font-poppins">Turn your links into brand assets and your clicks into actionable data</p>
+                <div class="mx-auto lg:mx-0">
+                    <a href="#" class="py-4 px-10 text-2xl font-bold text-white bg-coralRed rounded-full lg:py-4 hover:bg-darkPurple">Get Started</a>
+                </div>
+             </div>
+         
+            <!-- Image -->
+             <div class="mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2">
+                <img src="./assets/illustration-working.svg" alt="">
+             </div>
+         </div>
+     </div>
+     <!-- Shorteen Section   -->
+      <section id="shorten" class="relative bg-beige">
+        <!-- shorteen container -->
+         <div class="max-w-4xl mx-auto p-6 space-y-6">
+             <!-- Form -->
+              <form action="" id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkPurple rounded-lg md:flex-row md:space-y-0 md:space-x-3">
+                 <input type="text" class="flex-1 p-3 border-2 bg-beige rounded-lg placeholder-gray-500 focus:outline-none" placeholder="Shorten a linke here" id="link-input">
+                 <button class="px-10 p y-3 text-white bg-coralRed rounded-lg hover:bg-cyanLigh focus:outline-none md:py-2">Shorten It!</button>
+                     <!-- ِError Message -->
+                     <div id="err-msg" class="absolute left-7 bottom-3 text-red-500 text-sm italic"></div>
+              </form>
+              <!-- Link 1 -->
+               <div class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row">
+                <p class="font-bold text-center text-darkGray md:text-left">https://frontendmentor.io</p>
+                <div class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
+                    <div class="font-bold text-aqua">https://rel.ink/k4IKyk</div>
+                    <button class="p-2 px-8 text-white bg-aqua rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
+                
+                </div>
+               </div>
+              <!-- Link 2 -->
+               <div class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row">
+                <p class="font-bold text-center text-darkGray md:text-left">https://frontendmentor.io</p>
+                <div class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
+                    <div class="font-bold text-aqua">https://rel.ink/k4IKyk</div>
+                    <button class="p-2 px-8 text-white bg-darkPurple rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
+                </div>
+               </div>
+              <!-- Link 3ß -->
+               <div class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row">
+                <p class="font-bold text-center text-darkGray md:text-left">https://frontendmentor.io</p>
+                <div class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
+                    <div class="font-bold text-aqua">https://rel.ink/k4IKyk</div>
+                    <button class="p-2 px-8 text-white bg-aqua rounded-lg hover:opacity-70 focus:outline-none">Copy</button>
+                </div>
+               </div>
+         </div>
+      </section> 
+      <!-- Status Section -->
+       <section id="status" class="py-24 bg-beige">
+         <div class="container mx-auto px-3">
+            <h2 class="text-4xl mb-6 font-bold text-center">
+                Advanced Statistics
+            </h2>
+            <p class="max-w-xs mx-auto text-center text-black md:max-w-md">Track how your links are performing across the web with our advanced statistics dashboard.</p>
+         </div>
+       </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
